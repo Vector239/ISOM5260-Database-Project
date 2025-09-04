@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF0B11AA-EC94-2C62-FC8B-EDC97ADD79CC" name="Drink">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>CBF91FC6-FBA7-77CD-BB60-86C65CE22531</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DrinkId" id="C9F1F3D7-C5CF-D2B6-238C-B27B075D15ED">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>FA6766C4-5C2C-B11E-D13A-E4DE8F0493BD</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="0160408A-8C4F-81C6-54A0-ADCAC52D7734">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>E64F0476-97CB-6BEC-4B1B-05EB0823358B</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="3D34CADD-F7C6-F94A-4B04-721A9DE62D10">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>8E6E0718-093E-CDE7-5531-C3DCE8C9115B</generatorID>
+<notes><![CDATA[单价]]></notes>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Remains" id="F9783440-37D4-A5AA-94F8-94FA73BAAAD3">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>B370C25E-898E-87DC-0A79-1D8BA1A7F0A1</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sale_status" id="E930D026-4834-331A-3A7E-A8E0515727B4">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>F50C0CA9-CBF9-7355-BB41-CF01EB19CE33</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ingredient" id="B7BDFF98-62B3-E4DF-198D-829BE86D5AD9">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>5C26FD2D-88B9-D9D2-B9F1-4A5C302A3A2C</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FBBD971-0871-490F-BA83-1D79AA15B9B9" name="Drink_PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>162C7F3F-0DEB-0B8F-2B0F-BDC62E055C99</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9F1F3D7-C5CF-D2B6-238C-B27B075D15ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1569B539-F91A-5DCF-924F-A6CBDD4C3640" name="Walkin">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:42:26 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WalkinId" id="4A75A97D-44B5-66DC-690B-C90B5249D8A4">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:43:28 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="97312416-BFA6-CB8C-95F1-28BFB8933F5A">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:43:50 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone number" id="C2F8D032-DCB5-C107-9AF5-64347512899F">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:45:11 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="history order" id="5882DA7A-453A-9C43-1B65-F44936A7332B">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:37:15 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Walkin_Date" id="7ABDBAEA-5CE8-2F8A-A5D1-C357196777BE">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:42:15 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AB85831-C252-CE3C-3A1C-BA17A9D065D2" name="individual customer PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:43:46 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A75A97D-44B5-66DC-690B-C90B5249D8A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

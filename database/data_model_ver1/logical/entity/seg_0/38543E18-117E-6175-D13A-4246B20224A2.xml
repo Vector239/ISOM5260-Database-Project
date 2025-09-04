@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38543E18-117E-6175-D13A-4246B20224A2" name="Ingredient">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:55:20 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IngredientId" id="DF3F4DF6-D237-DC91-409D-1BD10401D602">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:55:36 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="52F9CE23-5DA7-F4B6-C027-9037A551223A">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:55:50 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="BD638510-567E-8501-548E-352C736FA928">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:56:15 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SiglePrice" id="902AE9C6-F5E7-D5A9-6AC9-921A2D2BD6A7">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:56:55 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AlertThreshold" id="897C362A-135B-CAB8-A0C0-DCBFEBDB37AA">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:57:28 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBE23678-BFBF-4188-E977-4417352B57B1" name="Ingredient PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:55:48 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF3F4DF6-D237-DC91-409D-1BD10401D602</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

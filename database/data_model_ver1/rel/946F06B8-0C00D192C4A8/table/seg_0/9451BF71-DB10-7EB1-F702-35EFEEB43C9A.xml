@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9451BF71-DB10-7EB1-F702-35EFEEB43C9A" name="Walkin">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>1569B539-F91A-5DCF-924F-A6CBDD4C3640</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WalkinId" id="C703D319-0D09-1AFB-2142-71FA463A8607">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>4A75A97D-44B5-66DC-690B-C90B5249D8A4</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F33A4335-5905-99E5-DA71-933A3B886671">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>97312416-BFA6-CB8C-95F1-28BFB8933F5A</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="F63BB53F-E9C5-86A8-AEDD-1E0798347485">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>C2F8D032-DCB5-C107-9AF5-64347512899F</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="history_order" id="F2F42645-430A-425C-5814-13F58F7A2596">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>5882DA7A-453A-9C43-1B65-F44936A7332B</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Walkin_Date" id="9CDE33C1-EF43-48AE-CCB3-8206A2E47E8F">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>7ABDBAEA-5CE8-2F8A-A5D1-C357196777BE</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F13420C-DFB2-A011-BC7C-4C395DD736E6" name="WALK_IN_PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>8AB85831-C252-CE3C-3A1C-BA17A9D065D2</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C703D319-0D09-1AFB-2142-71FA463A8607"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

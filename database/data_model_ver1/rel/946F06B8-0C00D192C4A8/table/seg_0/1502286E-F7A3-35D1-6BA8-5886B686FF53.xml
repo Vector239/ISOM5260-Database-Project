@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1502286E-F7A3-35D1-6BA8-5886B686FF53" name="member">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>D57023E5-C4CB-B516-3EEC-743DA116BDF8</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MemberId" id="02079F70-0E9D-64B4-CD02-FB20D2AF7FFF">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>627A5594-31FA-442A-6426-B992DC28C271</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="01A5A22A-8D28-AFA2-97AC-0D3E33A0CE50">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>67A5EA65-0304-642D-FA70-69C9F66EE4B2</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="74C18C2A-803D-5037-6B7B-F12A610BBFFF">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>E6C0594D-022B-34E3-F809-1DCBF667C82C</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail_box" id="ABBD2CAF-9E59-AB46-BFCA-F044CDDF95C8">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>2A758CA2-7E28-E69A-43AA-F96F94494F04</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="register_date" id="A7407826-2361-E97E-CBEB-D5EADC7E796D">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>5F1581A4-190A-71E5-B6F2-EE1C5A580E9C</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="history_order" id="9B5745D3-41CD-C471-6771-AC0C931787B7">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>4695F77F-6A1A-8C96-E524-242651BD4492</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FB5FC0D-BB49-B86F-9B89-C6155B827C18" name="member_PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>AACBA472-8790-FFF6-8F3D-7AF09D92F7D6</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02079F70-0E9D-64B4-CD02-FB20D2AF7FFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

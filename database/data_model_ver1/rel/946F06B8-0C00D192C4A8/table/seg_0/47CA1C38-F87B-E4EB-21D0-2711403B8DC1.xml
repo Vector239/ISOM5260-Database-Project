@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47CA1C38-F87B-E4EB-21D0-2711403B8DC1" name="ComposeOf">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Drink_ID" id="ECDEFB12-B45A-1040-CE98-F9E5B14D5158">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29E32CA6-43D3-1813-0958-A0767C573551" referredColumn="C9F1F3D7-C5CF-D2B6-238C-B27B075D15ED"/>
+</associations>
+</Column>
+<Column name="Ingredient_ID" id="8FB5881C-0B20-9890-B0CD-4E8ED3C8825B">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CF315BD-7207-DE07-99E0-84463BA4C331" referredColumn="B1C3607C-EE65-2B86-441D-0238D9814BBF"/>
+</associations>
+</Column>
+<Column name="QuantityProportion" id="9FDB7F3C-C23B-E783-3CFC-A8E5D382D6B2">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:37:19 UTC</createdTime>
+<comment><![CDATA[how many gram of ingredient do one drink need]]></comment>
+<generatorID>A21F2104-9A50-9BB5-3F83-2EF016028D15</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F77F0A9F-08DB-B26C-F33B-5460B374590B" name="ComposeOf_PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECDEFB12-B45A-1040-CE98-F9E5B14D5158"/>
+<colUsage columnID="8FB5881C-0B20-9890-B0CD-4E8ED3C8825B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A84A0A4B-C14B-AB1D-C6CC-ECDFCFC323B9" name="ComposeOf_Drink_FK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>F586C566-BB0F-1337-EC6E-0DE7894AAC8E</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECDEFB12-B45A-1040-CE98-F9E5B14D5158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DBF1358-35E8-CF7F-DDDA-E0DB16C7B240" name="ComposeOf_Ingredient_FK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>F586C566-BB0F-1337-EC6E-0DE7894AAC8E</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB5881C-0B20-9890-B0CD-4E8ED3C8825B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

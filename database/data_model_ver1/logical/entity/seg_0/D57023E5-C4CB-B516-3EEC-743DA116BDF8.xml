@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D57023E5-C4CB-B516-3EEC-743DA116BDF8" name="member">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:30:22 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MemberId" id="627A5594-31FA-442A-6426-B992DC28C271">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:30:47 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="67A5EA65-0304-642D-FA70-69C9F66EE4B2">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:32:31 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone number" id="E6C0594D-022B-34E3-F809-1DCBF667C82C">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:32:45 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mail box" id="2A758CA2-7E28-E69A-43AA-F96F94494F04">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:33:17 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="register date" id="5F1581A4-190A-71E5-B6F2-EE1C5A580E9C">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:33:23 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="history order" id="4695F77F-6A1A-8C96-E524-242651BD4492">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 07:33:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AACBA472-8790-FFF6-8F3D-7AF09D92F7D6" name="会员 PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 06:32:07 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>627A5594-31FA-442A-6426-B992DC28C271</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

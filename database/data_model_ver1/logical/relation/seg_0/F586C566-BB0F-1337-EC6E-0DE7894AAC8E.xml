@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ComposeOf" directorySegmentName="seg_0" id="F586C566-BB0F-1337-EC6E-0DE7894AAC8E">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:21:29 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<sourcePk>162C7F3F-0DEB-0B8F-2B0F-BDC62E055C99</sourcePk>
+<targetPk>FBE23678-BFBF-4188-E977-4417352B57B1</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CBF91FC6-FBA7-77CD-BB60-86C65CE22531</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38543E18-117E-6175-D13A-4246B20224A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="QuantityProportion" id="A21F2104-9A50-9BB5-3F83-2EF016028D15">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:35:39 UTC</createdTime>
+<comment><![CDATA[how many gram of ingredient do one drink need]]></comment>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<engineerTo>
+<item key="946F06B8-7036-295F-B2A2-0C00D192C4A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

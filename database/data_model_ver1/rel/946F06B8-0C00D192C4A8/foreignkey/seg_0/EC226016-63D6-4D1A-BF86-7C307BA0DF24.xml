@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC226016-63D6-4D1A-BF86-7C307BA0DF24" containerWithKeyObject="C5C17D30-EEC1-1B24-6378-05D8D13EA0C8" localFKIndex="E2DABCA0-917B-8229-D951-ED87B1A89C00" name="order_Walkin_FK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>B7CD7ACE-F5B8-BBD2-ED62-6D6010FF413B</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<referredTableLongName>Walkin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9451BF71-DB10-7EB1-F702-35EFEEB43C9A</referredTableID>
+<keyObject>2F13420C-DFB2-A011-BC7C-4C395DD736E6</keyObject>
+<referredKeyID>2F13420C-DFB2-A011-BC7C-4C395DD736E6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>WalkinId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

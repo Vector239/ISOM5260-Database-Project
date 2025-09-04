@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7CF315BD-7207-DE07-99E0-84463BA4C331" containerWithKeyObject="47CA1C38-F87B-E4EB-21D0-2711403B8DC1" localFKIndex="8DBF1358-35E8-CF7F-DDDA-E0DB16C7B240" name="ComposeOf_Ingredient_FK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>F586C566-BB0F-1337-EC6E-0DE7894AAC8E</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<referredTableLongName>Ingredient</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3C554FF-1155-1ED6-E733-E3089E8D230D</referredTableID>
+<keyObject>EC1603BD-C384-73AF-2D47-1F1591B7456A</keyObject>
+<referredKeyID>EC1603BD-C384-73AF-2D47-1F1591B7456A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

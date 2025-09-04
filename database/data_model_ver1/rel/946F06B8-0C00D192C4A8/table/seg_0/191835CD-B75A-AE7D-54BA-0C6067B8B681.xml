@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="191835CD-B75A-AE7D-54BA-0C6067B8B681" name="BelongTo">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Drink_ID" id="2E529910-7F7E-D922-53BA-51727FD836DB">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E65344BA-D4EA-6C86-6EB9-2DA367994142" referredColumn="C9F1F3D7-C5CF-D2B6-238C-B27B075D15ED"/>
+</associations>
+</Column>
+<Column name="order_OrderId" id="D1CF4DE4-CE67-10DB-DA25-A43CFA48EE47">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="848A1922-4D96-3343-2B0B-BEB119C32342" referredColumn="984B299E-A28D-3538-21EA-A37FCEA61942"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C294812-67D9-5A7B-FBFB-4FA5893EF5BD" name="BelongTo_PK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E529910-7F7E-D922-53BA-51727FD836DB"/>
+<colUsage columnID="D1CF4DE4-CE67-10DB-DA25-A43CFA48EE47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BAA66F3-49A2-6E91-7F19-59A1EAD355FD" name="BelongTo_Drink_FK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>5CC53FBE-160B-0A74-2AF6-C15B930C343B</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E529910-7F7E-D922-53BA-51727FD836DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4AE62EC-5197-0BC4-AC32-EAE250E86019" name="BelongTo_order_FK">
+<createdBy>16214</createdBy>
+<createdTime>2025-09-04 08:25:34 UTC</createdTime>
+<generatorID>5CC53FBE-160B-0A74-2AF6-C15B930C343B</generatorID>
+<ownerDesignName>data_model_ver1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1CF4DE4-CE67-10DB-DA25-A43CFA48EE47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
